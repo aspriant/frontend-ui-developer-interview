@@ -1,1 +1,1 @@
-Helping Junior Frontend Developer pass JavaScript whiteboarding
+Helping Junior Frontend Developers pass JavaScript whiteboarding

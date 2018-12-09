@@ -20,7 +20,7 @@ function palindrome(string) {
   return string === reversed
 }
 
-/** ===============================2st Solution======================================== */
+/** ===============================2nd Solution======================================== */
 
 /**
  * Using Array.prototype.every()

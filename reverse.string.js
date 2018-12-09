@@ -50,7 +50,10 @@ function reverseString(string) {
 
 /** ================================== 3nd Solution ===================================== */
 
-/** Using reduce() method */
+/**
+ * Using Array.prototype.reduce() method
+ * reduce() can only be used on array hence you always have to convert it to an array
+ */
 
 function reverseString(string) {
   /** You again have to convert the string to an array because reduce works only on arrays

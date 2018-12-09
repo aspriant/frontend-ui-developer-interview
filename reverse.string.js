@@ -29,7 +29,7 @@ function reverseStringOneLiner(string) {
 
 /** ================================== 2nd Solution ===================================== */
 
-/** Using for of loop (never use old bug-prone for loop) */
+/** Using for of loop (never use old bug-error-typo-prone, unreadable for loop) */
 
 function reverseString(string) {
   /** This will hold the reversed string */
@@ -70,6 +70,6 @@ function reverseString(string) {
     .split('')
     .reduce(
       (reversed, eachCharacterOfString) => eachCharacterOfString + reversed,
-      '',
+      ''
     )
 }

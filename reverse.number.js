@@ -15,6 +15,9 @@ function reverseNumber(number) {
     .reverse()
     .join('')
 
-  /** parseInt() turns string into number. Math.sign() returns 1 if number is positive and -1 if negative */
+  /**
+   * parseInt() turns string into a number.
+   * Math.sign() returns 1 if parameter number is positive and -1 if negative
+   */
   return parseInt(reversedNumber) * Math.sign(number)
 }

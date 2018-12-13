@@ -48,3 +48,28 @@ function characterMapBuilder(string) {
 
   return characterMap
 }
+
+/** ==================================2nd Solution==================================== */
+
+/**
+ * This solution is much easier than 1st one, but it is important to know how to build an
+ * object from a string's letters because it can be used to solve so many other challenges with
+ * strings involved
+ */
+
+function anagramChecker(stringA, stringB) {
+  return helperCleanerFunction(stringA) === helperCleanerFunction(stringB)
+}
+
+/**
+ * It strips all non-letter chars turns to lower cases, turns into an array, sorts alphabetically
+ * and then join back into a string
+ */
+function helperCleanerFunction(string) {
+  return string
+    .replace(/[^\w]/g, '')
+    .toLowerCase()
+    .split('')
+    .sort()
+    .join('')
+}
